@@ -1,6 +1,8 @@
 import 'package:get/get.dart';
 import 'package:orders_task/screens/orders/bindings/orders_binding.dart';
 import 'package:orders_task/screens/orders/views/orders_view.dart';
+import 'package:orders_task/screens/statistics/bindings/statistics_binding.dart';
+import 'package:orders_task/screens/statistics/views/statistics_view.dart';
 
 part 'app_routes.dart';
 
@@ -12,10 +14,10 @@ class AppPages {
       page: () => OrdersView(),
       binding: OrdersBinding(),
     ),
-    // GetPage(
-    //   name: _Paths.STATISTICS,
-    //   page: () => StatisticsView(),
-    //   binding: StatisticsBinding(),
-    // ),
+    GetPage(
+      name: _Paths.STATISTICS,
+      page: () => StatisticsView(),
+      binding: StatisticsBinding(),
+    ),
   ];
 }
