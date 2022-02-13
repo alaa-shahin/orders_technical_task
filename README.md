@@ -15,6 +15,7 @@ $ git clone https://github.com/alaa-shahin/orders_technical_task.git
  ```sh
  $ flutter pub get
  ```
+
  _ You will find an option "Chrome(web)" in a dropdown list on the top corner of your IDE. Choose this option and run to view the web version.
  - Connect an Android device by USB or install emulator to view the Android version.
  - Connect an IOS device by USB to or install Simulator to view the IOS version.
